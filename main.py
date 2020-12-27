@@ -11,6 +11,14 @@ import style
 
 st.title('In the style of Megan Rieker')
 
+st.write('This application allows you to recreate any image in the style of the paintings of Megan Rieker (and a few other examples)')
+
+st.write('Select a painting from the style image dropdown menu then upload a photo below')
+
+st.write('Press the Stylize button to recreate the source image in the style of the style image')
+
+st.write("It's no replacement for the real thing, but I hope it sparks creativity and is fun to play with")
+
 st.write('### Style image:')
 style_name = st.selectbox(
     'Select Style',
