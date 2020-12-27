@@ -14,7 +14,7 @@ st.title('In the style of Megan Rieker')
 st.write('### Style image:')
 style_name = st.selectbox(
     'Select Style',
-    ('truck',' temple','watercolor','italian_coastal_city', 'candy', 'mosaic', 'rain_princess', 'udnie')
+    ('truck', 'temple','watercolor','italian_coastal_city', 'candy', 'mosaic', 'rain_princess', 'udnie')
 )
 style_image = "data/images/style-images/" + style_name + ".jpg"
 s_image = Image.open(style_image)
