@@ -22,7 +22,10 @@ st.write("It's no replacement for the real thing, but I hope it sparks creativit
 st.write('### Style image:')
 style_name = st.selectbox(
     'Select Style',
-    ('truck', 'temple','watercolor','italian_coastal_city', 'candy', 'mosaic', 'rain_princess', 'udnie')
+    ('truck', 'temple','watercolor','watercolor_2','italian_coastal_city', 
+    'canal','landscape_1','mountain_range','open_window',
+    'renaissance_woman_1','renaissance_woman_2','renaissance_man', 'woman_in_white',
+    'candy', 'mosaic', 'rain_princess', 'udnie')
 )
 style_image = "data/images/style-images/" + style_name + ".jpg"
 s_image = Image.open(style_image)
