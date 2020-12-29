@@ -22,7 +22,7 @@ st.write("It's no replacement for the real thing, but I hope it sparks creativit
 st.write('### Style image:')
 style_name = st.selectbox(
     'Select Style',
-    ('truck', 'temple','watercolor','watercolor_2','italian_coastal_city', 
+    ('truck', 'temple','watercolor','watercolor2','italian_coastal_city', 
     'canal','landscape_1','mountain_range','open_window',
     'renaissance_woman_1','renaissance_woman_2','renaissance_man', 'woman_in_white',
     'candy', 'mosaic', 'rain_princess', 'udnie')
